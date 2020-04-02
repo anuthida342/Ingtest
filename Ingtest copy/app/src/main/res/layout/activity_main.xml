@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="25dp">
+
+    <EditText
+        android:id="@+id/putName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="    ชื่อ"/>
+
+    <EditText
+        android:id="@+id/putId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="    รหัสนักศึกษา"/>
+
+    <EditText
+        android:id="@+id/putTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="    เบอร์โทรศัพท์"/>
+
+    <Button
+        android:id="@+id/press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="ADD"
+        />
+
+    <TextView
+        android:id="@+id/reName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/reId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/reTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
